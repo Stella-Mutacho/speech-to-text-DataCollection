@@ -1,0 +1,14 @@
+{
+  "name": "kafka_cluster",
+  "version": "1.0.0",
+  "description": "Kafka cluster to enable streaming data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stella Mutacho",
+  "license": "ISC",
+  "dependencies": {
+    "kafkajs": "^2.2.0"
+  }
+}
