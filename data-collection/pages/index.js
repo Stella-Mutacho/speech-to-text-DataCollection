@@ -2,7 +2,7 @@ import Head from 'next/head'
 
 
 import styles from '../styles/Home.module.css'
-import audioplayer from "../components/audioplayer"
+import AudioPlayer from '../components/AudioPlayer'
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <audioplayer />
+        <AudioPlayer />
       </main>
     </div>
   )
